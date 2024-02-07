@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULARIO</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <ul style="list-style-type: none;">
+                    <legend>TIPO DE EMPRESA</legend>
+                    <label for="1q-q1">
+                    <li>
+                          Individua:<input type="radio" name="Tipo-empresa">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="1q-q2">
+                           Pyme:<input type="radio" name="Tipo-empresa">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="1q-q3">
+                            Empresa mediana:<input type="radio" name="Tipo-empresa">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="1q-q4">
+                            Multinacional:<input type="radio" name="Tipo-empresa">
+                        </label>
+                    </li>
+               </ul>
+            </fieldset>
+            <fieldset>
+                <legend>MODO DE TRABAJO</legend>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <label for="2q-q1">Virtual</label>
+                        <input type="checkbox" name="Modalidad-trabajo">
+                    </li>
+                    <li>
+                        <label for="2q-q2">Presencial</label>
+                        <input type="checkbox" name="Modalidad-trabajo">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>CUAL HABILIDAD VALORAN MAS?</legend>
+                <SELect name="Hablidades" id="hablidad" required>
+                    <option value="cooperacion">Cooperacion</option>
+                    <option value="resolver problemas">Resolver problemas</option>
+                    <option value="resposable">Resposable</option>
+                    <option value="ser-honesto">Ser honesto</option>
+                </SELect>
+            </fieldset>
+            <fieldset>
+                <legend>DEJAR UN COMENTARIO SI TIENE DUDAS DE MI</legend>
+                <div>
+                    <textarea name="comentario" id="textarea-formulario" cols="50" rows="3" placeholder="que conocimiento tienes en el teama....? "></textarea>
+                </div>
+            </fieldset>
+            <label for="enviar">Enviar formulario</label>
+            <input type="submit">
+        </form>
+    </body>
+</html>
